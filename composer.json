@@ -1,0 +1,25 @@
+{
+    "name": "30053063/speed-test-mysql-redis",
+    "autoload": {
+        "psr-4": {
+            "30053063\\SpeedTestMysqlRedis\\": "src/",
+            "Src\\Config\\": "src/Config",
+            "Src\\Database\\": "src/Database",
+            "Src\\Command\\": "src/Command",
+            "Src\\Logger\\": "src/Logger",
+            "Src\\Helper\\": "src/Helper",
+            "Src\\Time\\": "src/Time"
+        }
+    },
+    "authors": [
+        {
+            "name": "Histel",
+            "email": "74766995+Histel@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.19",
+      "ext-mysqli": "*",
+      "ext-redis": "*"
+    }
+}
