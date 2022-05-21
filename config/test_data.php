@@ -1,7 +1,7 @@
 <?php
 return [
     'default' => [
-        'redis' => 10000,
-        'mysql' => 10000
+        'redis' => 100000,
+        'mysql' => 100000
     ]
 ];
