@@ -11,7 +11,7 @@ class RedisSeeder extends Seeder
         $redis->set('test_large', '');
     }
 
-    public function definition(int $iter): void
+    protected function definition(int $iter): void
     {
         $redis = RedisConnection::getInstance()->connection();
         $jsonObject = json_encode([
